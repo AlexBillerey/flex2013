@@ -1,0 +1,54 @@
+/*
+Syntax error: File to import not found or unreadable: susy.
+              Load path: C:/Users/Billerey/Documents/bba_susy/sass
+        on line 3 of _base.scss
+
+1: // ---------------------------------------------------------------------------
+2: // Imports
+3: @import "susy";
+4: @import "compass";
+5: @import 'compass/reset';
+6: @import 'compass/css3';
+7: @import "compass/css3/shared";
+8: @import "compass/css3/box";
+
+Backtrace:
+_base.scss:3
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:218:in `visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/engine.rb:265:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/plugin/compiler.rb:325:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/plugin/compiler.rb:182:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/plugin/compiler.rb:179:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/plugin/compiler.rb:179:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/plugin.rb:81:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/exec.rb:456:in `watch_or_update'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/exec.rb:317:in `process_result'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/exec.rb:41:in `parse'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.3.0.alpha.121/bin/scss:9:in `<top (required)>'
+C:/Ruby193/bin/scss:23:in `load'
+C:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: susy.\A               Load path: C:/Users/Billerey/Documents/bba_susy/sass\A         on line 3 of _base.scss\A \A 1: // ---------------------------------------------------------------------------\A 2: // Imports\A 3: @import \"susy\";\A 4: @import \"compass\";\A 5: @import 'compass/reset';\A 6: @import 'compass/css3';\A 7: @import \"compass/css3/shared\";\A 8: @import \"compass/css3/box\";"; }
