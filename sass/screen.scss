@@ -2,9 +2,20 @@
 // Imports
 
 @import "base";
-//@import "compass";
+//@import "susy";
 
-/* -------------------------------------------------------------------------*/
+$total-columns  : 4;              // a 4-column grid for Mobile First
+$column-width   : 4em;          // each column is 3.8em wide
+$gutter-width   : 1em;          // 1em gutters between columns
+$grid-padding   : 0 ;  // grid-padding equal to half gutters
+
+/*
+$break-1	: 6;	//
+$break-2	: 8;	// iPad (Portrait) 728
+$break-3	: 12;	//
+*/
+
+
 
 @-ms-viewport {
     width: device-width;
@@ -31,202 +42,159 @@
 html {
   font-size:100%;
 }
+html {
+/*  background: url(../img/brixton_2560_1920_25.jpg) no-repeat 100% 20% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+}
 body {
-  font-family:'Ubuntu Mono', sans-serif;
-  line-height:1.625;
+  /* this is now in default.scss */
+/*  font-family:Ubuntu, sans-serif;
+  line-height:1.4;
   font-size:16px;
-  font-size:1rem;
-  background: #f9fdfd;
-  color: #464646;
+  font-size:100%;
+  //background: #f9fdfd;
+  color: #464646;*/
 }
+$break1 :30em, 6; // 480px
+$break2: 37.5em, 8; // 600px
+$break3 :50em, 12; // 800px
 
-h1:first-letter {
-    background:$aab_grey;
-    color:$aab_cream;
-    padding:0 .15em;
-}
-
-
-/* Layout */
 .page {
-  // page acts as a container for our grid.
+  @include container ($total-columns, $break1,  $break2, $break3);
   //@include susy-grid-background;
-  @include container;
-  //@include box-sizing(border-box);
-  max-width: 71.25em;
-  padding-top:101px;
-  @media screen and (max-width: $break-568) {
-   padding-left: 0;
-    padding-right: 0;
-  }
-  @media screen and (max-width: $break-1024) {
-  width: 98%;
-  }
-}
-
-.page p {
-  font-size:14px;
-  font-size:.875rem;
-  @media screen and (max-width: $break-1024) {
-  color:hotpink;
-  }
-  }
-
-// header and footer are full-width by default.
-  /*header,*/
-  footer { clear: both; }
-  footer {background:rgba(#00a5a5,.5)}
-  header {
-    padding:$gutter-width / 2;
-    position:fixed;
-    background: rgba(255,255,255,.5);
-    width: 100%;
-    z-index: 2;
-    //@include span-columns(12 omega,12);
-    // needs latest Compass, add '@import "compass"' to your scss
-    background-color: #ffffff; // Old browsers
-    @include filter-gradient(#ffffff, #000000, vertical); // IE6-8
-    // IE9 SVG, needs conditional override of 'filter' to 'none'
-    $experimental-support-for-svg: true;
-    @include background-image(linear-gradient(top,  #ffffff 0%,#000000 100%));
-    h1 {
-      font-weight:700;
-      font-size:50px;
-      font-size:3.125rem;
-    }
-    @media screen and (max-width: $break-320) {
-     h1 {
-       font-size:26px;
-       font-size:2.14285714rem;
-       color: #3a6124;
-     }
-    }
-  img {
-    width:60px;
-    height:auto;
-  }
-  }
-  // nav spans 4 columns of total 12.
   nav {
-    //@include span-columns(3 alpha,12);
-    font-size: 150%;
-    background: $aab_grey;
-    letter-spacing: 2px;
-      a {
-        display:block;
-        padding: $gutter-width / 4 0 $gutter-width / 4 $gutter-width / 2;
-        color: $aab_cream;
-        text-decoration: none;
-        font-weight: 600;
-        text-shadow: 1px 1px 1px black;
-        &:hover {
-          background-color: lighten($aab_grey, 10%);
-          color: darken($aab_cream,40%);
-        }
-      }
-    @media screen and (min-width: $break-600) {
-      //display:none;
-    }
-    @media screen and (max-width: $break-600) {
-      font-size: 15px;
-      font-size: .9375rem;
-      text-decoration: none;
-    }
-    @media screen and (max-width: $break-568) {
-      font-size:14px;
-      font-size:.875rem;
-      @include span-columns(12 omega,12);
-      padding:0;
-      background: $aab_cream;
-      ul {
-        @include span-columns(12 omega,12);
-      }
-      a {
-        display: block;
-        padding: $gutter-width / 2;
-        text-decoration: none;
-        font-weight: 600;
-        font-size:1.2em;
-        color: $aab_grey;
-        text-shadow: none;
-        font-weight: 500;
-        padding:0;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
+	//background: rgba(255, 105, 180, 0.58);
+
+	li {
+	  display: block;
+	}
+
+
   }
-.content {
-  //@include span-columns(12 omega,12);
-  /*
-  @media screen and (max-width: $break-568) {
-    @include span-columns(12 omega,12);
-    height: auto;
+  @include at-breakpoint($break1)  {
+	//@include susy-grid-background;
+	nav {
+	  //background: rgba(0, 0, 255, 0.58);
+
+	  li {
+		//display:inline-block;
+	  }
+	}
+	h1 {
+	  font-size:2.5em;
+	}
+
   }
-  */
-}
-  section {
-    padding:$gutter-width;
-    border-bottom:1px dotted $aab_grey;
-    h1 {
-      font-weight:500;
-      font-size: 24px;
-      font-size: 1.5rem;
-      border-bottom:solid 1px $aab_grey;
-      @include span-columns(12 omega,12);
-      margin: auto;
-      //background: lighten ($aab_cream,5%);
-      float:none;
-      &:first-letter {
-        background: inherit;
-        color: inherit;
-        padding: inherit;
+  @include at-breakpoint($break2)  {
+	//@include susy-grid-background;
+    html {
+      background: url(../img/brixton_2560_1920_25.jpg) no-repeat 100% 20% fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    header {
+      background: rgba(0, 0, 0, .75);
+
+      @include vendorprefix(transition, all .25s linear 0s);
+      &:hover  {
+        background: rgba(0, 0, 0, .25);
       }
     }
-    @media screen and (max-width: $break-568) {
-      @include span-columns(12 omega,12);
-      background: red;
-    }
-  }
-// main content spans 4 of those 8 columns.
-    .main {
-		@include span-columns(4,8);
-		//background:#363636;
-		color:#f3f3f3;
-		opacity:.75;
+	nav {
+	  //background: rgba(252, 153, 11, 0.73);
+		ul {
+		  line-height:5;
+		  width: 100%;
+		  display: -webkit-box;
+		  display: -moz-box;
+		  display: box;
+		  -webkit-box-orient: horizontal;
+		  -moz-box-orient: horizontal;
+		  box-orient: horizontal;
+
+		  -webkit-box-align: stretch;
+		  -moz-box-align: stretch;
+		  box-align: stretch;
+
+		  -webkit-box-direction: normal;
+		  -moz-box-direction: normal;
+		  box-direction: normal;
+
+		  -webkit-box-pack: start;
+		  -moz-box-pack: start;
+		  box-pack: start;
+		  //@include span-columns(12 omega,12);
 		}
-
-
-// generic class
-
-.toTop {
-  position:relative;
-  float:right;
-  font-size:14px;
-  font-size:.875rem;
-  margin-top:0;
-  display:none;
-  a {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-	display:block;
-    width: 0px;
-    height: 0px;
-    border-style:solid;
-    border-width: 10px;
-    border-top-style:none;
-    border-left-color:transparent;
-    border-right-color:transparent;
-    border-bottom-color:#464646;
-    _border-color: #000000 #000000 #2e2e2e #000000;
-    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
-    transition: all .5s 0s ;
-    &:hover {
-      opacity:.6;
-      border-width: 20px;
-      margin-right:-11px;
-    }
+	  	li {
+		text-align:center;
+		//background: rgba(250, 244, 10, 0.25);
+        background: rgba(255,255,255,.5);
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		box-flex: 1;
+		-webkit-box-ordinal-group: 1;
+		-moz-box-ordinal-group: 1;
+		box-ordinal-group: 1;
+		//margin-right: 2em;
+		@include vendorprefix(transition, all .75s linear 0s);
+		//@include span-columns(4,12);
+		&:last-of-type {
+		@include vendorprefix(border-radius, 0 1em 1em 0);
+		}
+		&:first-of-type {
+			@include vendorprefix(border-radius, 1em 0 0 1em);
+		  }
+		&:hover {
+		  -webkit-box-flex: 10;
+		  -moz-box-flex: 10;
+		  box-flex: 10;
+		  font-style: italic;
+		  //background: rgba(255,255,255,.5);
+          background: rgba(250, 244, 10, 0.25);
+		  //@include vendorprefix(transition, all 1s linear 0s);
+		}
+	}
+	  a {
+	   display:block;
+	   font-size:1em;
+	   color: rgb(255, 217, 14);
+	   text-decoration: none;
+	   text-shadow: 1px 1px 5px rgba(0,0,0,.5);
+	   //@include vendorprefix(transition, all .25s linear 0s);
+	   &:hover {
+		 color:black;
+		 text-shadow: inset 2px 2px 5px rgba(255,255,255,.5);
+		 //@include vendorprefix(transform,rotate(270deg));
+	   }
+	 }
+	}
+	h1 {
+	  font-size:3.25em;
+      margin-bottom: 1em;
+	  }
   }
+  @include at-breakpoint($break3)  {
+	//@include susy-grid-background;
+	nav {
+	  //background: rgba(124, 252, 0, 0.58);
+	}
+	h1 {
+	  font-size:4em;
+	}
+  }
+
 }
+footer{
+  clear:both;
+  display:block;
+}
+h1 {
+  color:white;
+}
+

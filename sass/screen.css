@@ -1,29 +1,32 @@
 /*
-Syntax error: Invalid CSS after "// Basic Grid": expected selector or at-rule, was "$total-columns ..."
-        on line 13 of _base.scss
+Syntax error: File to import not found or unreadable: compass.
+              Load path: C:/Users/Billerey/Documents/bba_susy/sass
+        on line 4 of _base.scss
         from line 4 of screen.scss
 
-8: @import "compass/css3/box";
-9: @import "susy"
-10: // ---------------------------------------------------------------------------
-11: // Basic Grid
-12: 
-13: $total-columns  : 12;
-14: $column-width   : 4.75em;
-15: $gutter-width   : 1.25em;
-16: $grid-padding   : /*$gutter-width / 4 ;*/ 0;
-17: 
-18: $show-grid-backgrounds  : true;
+1: // ---------------------------------------------------------------------------
+2: // Imports
+3: 
+4: @import "base";
+5: //@import "susy";
+6: 
+7: $total-columns  : 4;              // a 4-column grid for Mobile First
+8: $column-width   : 4em;          // each column is 3.8em wide
+9: $gutter-width   : 1em;          // 1em gutters between columns
 
 Backtrace:
-_base.scss:13
+_base.scss:4
 screen.scss:4
-C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:1148:in `expected'
-C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:1084:in `expected'
-C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:28:in `parse'
-C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/engine.rb:342:in `_to_tree'
-C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/engine.rb:274:in `to_tree'
-C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:45:in `import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:227:in `map'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
 C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
 C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
 C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -56,4 +59,4 @@ C:/Ruby193/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"// Basic Grid\": expected selector or at-rule, was \"$total-columns ...\"\A         on line 13 of _base.scss\A         from line 4 of screen.scss\A \A 8: @import \"compass/css3/box\";\A 9: @import \"susy\"\A 10: // ---------------------------------------------------------------------------\A 11: // Basic Grid\A 12: \A 13: $total-columns  : 12;\A 14: $column-width   : 4.75em;\A 15: $gutter-width   : 1.25em;\A 16: $grid-padding   : /*$gutter-width / 4 ;*/ 0;\A 17: \A 18: $show-grid-backgrounds  : true;"; }
+  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: C:/Users/Billerey/Documents/bba_susy/sass\A         on line 4 of _base.scss\A         from line 4 of screen.scss\A \A 1: // ---------------------------------------------------------------------------\A 2: // Imports\A 3: \A 4: @import \"base\";\A 5: //@import \"susy\";\A 6: \A 7: $total-columns  : 4;              // a 4-column grid for Mobile First\A 8: $column-width   : 4em;          // each column is 3.8em wide\A 9: $gutter-width   : 1em;          // 1em gutters between columns"; }

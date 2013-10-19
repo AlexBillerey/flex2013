@@ -6,25 +6,16 @@
 @import 'compass/css3';
 @import "compass/css3/shared";
 @import "compass/css3/box";
-@import "susy"
+@import "compass/css3/images";
+@import "compass/css3/box";
+@import "susy";
 // ---------------------------------------------------------------------------
-// Basic Grid
-
-$total-columns  : 12;
-$column-width   : 4.75em;
-$gutter-width   : 1.25em;
-$grid-padding   : /*$gutter-width / 4 ;*/ 0;
-
-$show-grid-backgrounds  : true;
-
-// my stuff
+/// my stuff
 $aab_grey:#464646;
 $aab_cream:#fdfdfd;
 
-
-$break-320: 320px;
-$break-480: 480px;
-$break-568: 568px;
-$break-600: 600px;
-$break-800: 800px;
-$break-1024: 1024px;
+@mixin vendorprefix($property, $value) {
+  @each $prefix in -webkit-, -moz-, -ms-, -o-, '' {
+	#{$prefix}#{$property}: $value;
+  }
+}

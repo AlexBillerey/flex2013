@@ -1,0 +1,296 @@
+/* line 17, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/default.scss */
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+  overflow: visible;
+  width: 100%;
+}
+
+/* line 6, ../sass/default.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/default.scss */
+html {
+  background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+/* line 15, ../sass/default.scss */
+h1 svg {
+  font-size: 1.25em;
+  height: 1.9em;
+}
+
+/* line 19, ../sass/default.scss */
+h1 text {
+  fill: black;
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-opacity: 1;
+}
+
+/* line 25, ../sass/default.scss */
+body {
+  font-family: "Times New Roman",Ubuntu, sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+  font-size: 100%;
+  color: #464646;
+  padding: 1em;
+}
+
+/* line 34, ../sass/default.scss */
+.page {
+  width: 75vw;
+  height: calc(100vh - 2em);
+  margin: auto;
+  background: rgba(255, 255, 255, 0.65);
+  padding: .25em;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  border-radius: 0.25em;
+  border: solid 10px rgba(0, 0, 0, 0.15);
+}
+
+/* line 43, ../sass/default.scss */
+h1 {
+  background: transparent;
+  padding: .25em;
+  margin-bottom: .75em;
+  font-weight: 700;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+
+/* line 51, ../sass/default.scss */
+p, li {
+  font-size: 0.9375em;
+  color: white;
+}
+
+/* line 55, ../sass/default.scss */
+nav {
+  background: transparent;
+  margin: .75em 0.5em;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  -o-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  -ms-align-items: stretch;
+  -o-align-items: stretch;
+  align-items: stretch;
+}
+/* line 70, ../sass/default.scss */
+nav section {
+  background: transparent;
+  position: relative;
+  height: 66vh;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -ms-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+  padding: 10px;
+  -webkit-box: 1;
+  -moz-box: 1;
+  -ms-box: 1;
+  -o-box: 1;
+  box: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -o-flex: 1;
+  flex: 1;
+  border-right: none;
+}
+/* line 83, ../sass/default.scss */
+nav section h2 {
+  font-weight: 600;
+  font-size: 2.5em;
+  width: 4em;
+  background: transparent;
+  margin-left: 1.5em;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -ms-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+/* line 95, ../sass/default.scss */
+nav section h2 ~ * {
+  opacity: 0;
+  -webkit-transition: all 0.5s linear 0.1s;
+  -moz-transition: all 0.5s linear 0.1s;
+  -ms-transition: all 0.5s linear 0.1s;
+  -o-transition: all 0.5s linear 0.1s;
+  transition: all 0.5s linear 0.1s;
+}
+/* line 102, ../sass/default.scss */
+nav section:hover {
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.85)));
+  background-image: -webkit-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
+  background-image: -moz-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
+  background-image: -o-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
+  background-image: linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -ms-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+  -webkit-boxflex: 25;
+  -moz-boxflex: 25;
+  -ms-boxflex: 25;
+  -o-boxflex: 25;
+  boxflex: 25;
+  -webkit-box-flex: 25;
+  -moz-box-flex: 25;
+  -ms-box-flex: 25;
+  -o-box-flex: 25;
+  box-flex: 25;
+  -webkit-flex: 15;
+  -moz-flex: 15;
+  -ms-flex: 15;
+  -o-flex: 15;
+  flex: 15;
+  border-right: 15px solid rgba(0, 0, 0, 0.95);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
+  z-index: 2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 115, ../sass/default.scss */
+nav section:hover h2 {
+  color: rgba(255, 88, 57, 0.81);
+  margin-left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -ms-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+/* line 123, ../sass/default.scss */
+nav section:hover h2 ~ * {
+  opacity: 1;
+  -webkit-transition: all 0.25s linear 0s;
+  -moz-transition: all 0.25s linear 0s;
+  -ms-transition: all 0.25s linear 0s;
+  -o-transition: all 0.25s linear 0s;
+  transition: all 0.25s linear 0s;
+}
