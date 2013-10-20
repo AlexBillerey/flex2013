@@ -215,6 +215,6 @@ pip-log.txt
 .mr.developer.cfg
 
 # My stuff
-sass-cache
-stylesheets
-bourbon
+sass-cache/
+stylesheets/
+bourbon/
