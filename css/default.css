@@ -1,4 +1,4 @@
-/* line 17, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -86,65 +86,49 @@ html {
   overflow-y: hidden;
 }
 
-/* line 15, ../sass/default.scss */
-h1 svg {
-  font-size: 1.25em;
-  height: 1.9em;
-}
-
-/* line 19, ../sass/default.scss */
-h1 text {
-  fill: black;
-  stroke: #000;
-  stroke-width: 2px;
-  stroke-opacity: 1;
-}
-
-/* line 25, ../sass/default.scss */
+/* line 18, ../sass/default.scss */
 body {
-  font-family: "Times New Roman",Ubuntu, sans-serif;
+  font-family: Ubuntu, sans-serif;
   line-height: 1.4;
   font-size: 16px;
   font-size: 100%;
+  background: rgba(0, 0, 0, 0.5);
   color: #464646;
-  padding: 1em;
+  height: 100vh;
 }
 
-/* line 34, ../sass/default.scss */
+/* line 28, ../sass/default.scss */
 .page {
   width: 75vw;
-  height: calc(100vh - 2em);
   margin: auto;
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(0, 0, 0, 0.65);
   padding: .25em;
-  -webkit-border-radius: 0.25em;
-  -moz-border-radius: 0.25em;
-  -ms-border-radius: 0.25em;
-  -o-border-radius: 0.25em;
-  border-radius: 0.25em;
-  border: solid 10px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 0 0 0.25em 0.25em;
+  -moz-border-radius: 0 0 0.25em 0.25em;
+  -ms-border-radius: 0 0 0.25em 0.25em;
+  -o-border-radius: 0 0 0.25em 0.25em;
+  border-radius: 0 0 0.25em 0.25em;
+  border: solid 10px rgba(0, 0, 0, 0.75);
 }
 
-/* line 43, ../sass/default.scss */
+/* line 36, ../sass/default.scss */
+header {
+  height: 3.73em;
+  overflow: hidden;
+}
+
+/* line 40, ../sass/default.scss */
 h1 {
-  background: transparent;
-  padding: .25em;
-  margin-bottom: .75em;
-  font-weight: 700;
-  -webkit-border-radius: 0.25em;
-  -moz-border-radius: 0.25em;
-  -ms-border-radius: 0.25em;
-  -o-border-radius: 0.25em;
-  border-radius: 0.25em;
+  background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 51, ../sass/default.scss */
+/* line 44, ../sass/default.scss */
 p, li {
   font-size: 0.9375em;
   color: white;
 }
 
-/* line 55, ../sass/default.scss */
+/* line 48, ../sass/default.scss */
 nav {
   background: transparent;
   margin: .75em 0.5em;
@@ -174,16 +158,21 @@ nav {
   -o-align-items: stretch;
   align-items: stretch;
 }
-/* line 70, ../sass/default.scss */
+/* line 63, ../sass/default.scss */
 nav section {
-  background: transparent;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.75)));
+  background-image: -webkit-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
+  background-image: -moz-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
+  background-image: -o-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
+  background-image: linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
   position: relative;
-  height: 66vh;
-  -webkit-transition: all 0.5s linear 0s;
-  -moz-transition: all 0.5s linear 0s;
-  -ms-transition: all 0.5s linear 0s;
-  -o-transition: all 0.5s linear 0s;
-  transition: all 0.5s linear 0s;
+  height: 60vh;
+  -webkit-transition: all 0.75s linear 0s;
+  -moz-transition: all 0.75s linear 0s;
+  -ms-transition: all 0.75s linear 0s;
+  -o-transition: all 0.75s linear 0s;
+  transition: all 0.75s linear 0s;
   padding: 10px;
   -webkit-box: 1;
   -moz-box: 1;
@@ -200,9 +189,15 @@ nav section {
   -ms-flex: 1;
   -o-flex: 1;
   flex: 1;
-  border-right: none;
+  border: 1px solid rgba(255, 255, 255, 0);
+  /*
+  * {
+    @include vendorprefix(transform, scale(0,0));
+    @include vendorprefix(transition,all .5s linear 10.75s);
+  }
+  */
 }
-/* line 83, ../sass/default.scss */
+/* line 77, ../sass/default.scss */
 nav section h2 {
   font-weight: 600;
   font-size: 2.5em;
@@ -219,50 +214,42 @@ nav section h2 {
   -ms-transform-origin: left top;
   -o-transform-origin: left top;
   transform-origin: left top;
-  -webkit-transition: all 0.5s linear 0s;
-  -moz-transition: all 0.5s linear 0s;
-  -ms-transition: all 0.5s linear 0s;
-  -o-transition: all 0.5s linear 0s;
-  transition: all 0.5s linear 0s;
 }
-/* line 95, ../sass/default.scss */
+/* line 88, ../sass/default.scss */
 nav section h2 ~ * {
-  opacity: 0;
-  -webkit-transition: all 0.5s linear 0.1s;
-  -moz-transition: all 0.5s linear 0.1s;
-  -ms-transition: all 0.5s linear 0.1s;
-  -o-transition: all 0.5s linear 0.1s;
-  transition: all 0.5s linear 0.1s;
+  display: none;
+  -webkit-transition: display 2s linear 2.5s;
+  -moz-transition: display 2s linear 2.5s;
+  -ms-transition: display 2s linear 2.5s;
+  -o-transition: display 2s linear 2.5s;
+  transition: display 2s linear 2.5s;
 }
-/* line 102, ../sass/default.scss */
+/* line 98, ../sass/default.scss */
 nav section:hover {
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.85)));
-  background-image: -webkit-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
-  background-image: -moz-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
-  background-image: -o-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
-  background-image: linear-gradient(left top, transparent, rgba(0, 0, 0, 0.85));
-  -webkit-transition: all 0.5s linear 0s;
-  -moz-transition: all 0.5s linear 0s;
-  -ms-transition: all 0.5s linear 0s;
-  -o-transition: all 0.5s linear 0s;
-  transition: all 0.5s linear 0s;
-  -webkit-boxflex: 25;
-  -moz-boxflex: 25;
-  -ms-boxflex: 25;
-  -o-boxflex: 25;
-  boxflex: 25;
-  -webkit-box-flex: 25;
-  -moz-box-flex: 25;
-  -ms-box-flex: 25;
-  -o-box-flex: 25;
-  box-flex: 25;
-  -webkit-flex: 15;
-  -moz-flex: 15;
-  -ms-flex: 15;
-  -o-flex: 15;
-  flex: 15;
-  border-right: 15px solid rgba(0, 0, 0, 0.95);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.75);
+  -webkit-transition: all 0.75s linear 0s;
+  -moz-transition: all 0.75s linear 0s;
+  -ms-transition: all 0.75s linear 0s;
+  -o-transition: all 0.75s linear 0s;
+  transition: all 0.75s linear 0s;
+  -webkit-boxflex: 12;
+  -moz-boxflex: 12;
+  -ms-boxflex: 12;
+  -o-boxflex: 12;
+  boxflex: 12;
+  -webkit-box-flex: 12;
+  -moz-box-flex: 12;
+  -ms-box-flex: 12;
+  -o-box-flex: 12;
+  box-flex: 12;
+  -webkit-flex: 12;
+  -moz-flex: 12;
+  -ms-flex: 12;
+  -o-flex: 12;
+  flex: 12;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-left-width: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
   z-index: 2;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -270,9 +257,9 @@ nav section:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 115, ../sass/default.scss */
+/* line 113, ../sass/default.scss */
 nav section:hover h2 {
-  color: rgba(255, 88, 57, 0.81);
+  color: #ff573d;
   margin-left: 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -285,12 +272,59 @@ nav section:hover h2 {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
-/* line 123, ../sass/default.scss */
+/* line 121, ../sass/default.scss */
 nav section:hover h2 ~ * {
-  opacity: 1;
-  -webkit-transition: all 0.25s linear 0s;
-  -moz-transition: all 0.25s linear 0s;
-  -ms-transition: all 0.25s linear 0s;
-  -o-transition: all 0.25s linear 0s;
-  transition: all 0.25s linear 0s;
+  display: block;
+  -webkit-transition: display 2s linear 2.5s;
+  -moz-transition: display 2s linear 2.5s;
+  -ms-transition: display 2s linear 2.5s;
+  -o-transition: display 2s linear 2.5s;
+  transition: display 2s linear 2.5s;
 }
+/* line 126, ../sass/default.scss */
+nav section:hover * {
+  -webkit-transition: all 0.5s linear 0.7s;
+  -moz-transition: all 0.5s linear 0.7s;
+  -ms-transition: all 0.5s linear 0.7s;
+  -o-transition: all 0.5s linear 0.7s;
+  transition: all 0.5s linear 0.7s;
+}
+
+/* line 136, ../sass/default.scss */
+.closed {
+  -webkit-box: 1;
+  -moz-box: 1;
+  -ms-box: 1;
+  -o-box: 1;
+  box: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -o-flex: 1;
+  flex: 1;
+  border-left: none;
+}
+
+/*
+section:first-child {
+  background:transparent;
+  @include vendorprefix(transition,all 0.75s linear 0s);
+  @include vendorprefix(boxflex, 12);
+  @include vendorprefix(box-flex, 12);
+  @include vendorprefix(flex, 12);
+  border:1px solid rgba(0,0,0,.75);
+  border-left:15px solid rgba(0,0,0,.75);
+  box-shadow:0 0 10px rgba(0,0,0, 0.85);
+  z-index: 2;
+  @include vendorprefix(border-radius,5px);
+}
+sectionfirst-child:hover: {
+  @include vendorprefix(boxflex, 1);
+  @include vendorprefix(box-flex, 1);
+  @include vendorprefix(flex, 1);
+}*/

@@ -11,41 +11,34 @@ html {
   -o-background-size: cover;
   background-size: cover;
   overflow-y: hidden;
+  //@include vendorprefix(filter, grayscale(.9));
 }
-h1 svg {
-  font-size:1.25em;
-  height:1.9em;
-}
-h1 text {
-  fill:black;
-  stroke:#000;
-  stroke-width:2px;
-  stroke-opacity:1;
-}
+
+
 body {
-  font-family:"Times New Roman",Ubuntu, sans-serif;
+  font-family:Ubuntu, sans-serif;
   line-height:1.4;
   font-size:16px;
   font-size:100%;
-  //background: #f9fdfd;
+  background: rgba(0, 0, 0, 0.5);
   color: #464646;
-  padding:1em;
+  height: 100vh;
+  //padding:1em;
 }
 .page {
   width:75vw;
-  height: calc(100vh - 2em);
   margin:auto;
-  background: rgba(255, 255, 255, 0.650);
+  background: rgba(0,0,0, 0.650);
   padding:.25em;
-  @include vendorprefix(border-radius,.25em);
-  border:solid 10px rgba(0,0,0,.15);
+  @include vendorprefix(border-radius,0 0 .25em .25em);
+  border:solid 10px rgba(0,0,0,.75);
+}
+header {
+  height:3.73em;
+  overflow:hidden;
 }
 h1 {
-  background: transparent;
-  padding:.25em;
-  margin-bottom:.75em;
-  font-weight:700;
-  @include vendorprefix(border-radius,.25em);
+  background: rgba(0,0,0,.75);
 }
 
 p,li {
@@ -68,67 +61,100 @@ nav {
   @include vendorprefix(align-items,stretch);
 
       section {
-        background: transparent;
+        overflow:hidden;
+        @include background-image(linear-gradient(left top, transparent, rgba(0,0,0,.75)));
         position:relative;
-        height:66vh;
-        @include vendorprefix(transition,all .5s linear 0s);
+        height:60vh;
+        @include vendorprefix(transition,all 0.75s linear 0s);
         //max-width: 70%;
         //background: hotpink;
         padding:10px;
         @include vendorprefix(box, 1);
         @include vendorprefix(box-flex, 1);
         @include vendorprefix(flex, 1);
-        border-right:none;
+        border:1px solid rgba(255,255,255,0);
 
             h2 {
               font-weight:600;
               font-size:2.5em;
-              //border-bottom:1px black dashed;
               width:4em;
               background: transparent;
               margin-left:1.5em;
               @include vendorprefix(transform,rotate(90deg));
               @include vendorprefix(transform-origin, left top);
-              @include vendorprefix(transition,all .5s linear 0s);
+              //@include vendorprefix(transition,all .5s linear 10s);
+              //@include vendorprefix(text-shadow,0px 0px 1px white);
             }
-
             h2 ~ * {
-              //display:none;
-              //visibility: hidden;
-              opacity:0;
-              @include vendorprefix(transition,all .5s linear .1s);
+              display:none;
+              @include vendorprefix(transition,display 2s linear 2.5s);
             }
-
+        /*
+        * {
+          @include vendorprefix(transform, scale(0,0));
+          @include vendorprefix(transition,all .5s linear 10.75s);
+        }
+        */
           &:hover {
-            @include background-image(linear-gradient(left top, transparent, rgba(0,0,0,.85)));
+            //@include background-image(linear-gradient(left top, transparent, rgba(255,255,255,.75)));
             //@include background-image(linear-gradient(transparent, #cccccc 60%, #bbbbbb 70%, #aaaaaa));
             //background: rgba(14, 5, 10, 0.75);
-            @include vendorprefix(transition,all .5s linear 0s);
-            @include vendorprefix(boxflex, 25);
-            @include vendorprefix(box-flex, 25);
-            @include vendorprefix(flex, 15);
-            border-right:15px solid rgba(0,0,0,.95);
-            box-shadow:0 0 10px rgba(0,0,0, 0.85);
+            background:rgba(0,0,0,.75);
+            @include vendorprefix(transition,all 0.75s linear 0s);
+            @include vendorprefix(boxflex, 12);
+            @include vendorprefix(box-flex, 12);
+            @include vendorprefix(flex, 12);
+            border:1px solid rgba(0,0,0,.70);
+            border-left-width:15px;
+            box-shadow:0 0 10px rgba(0,0,0, 0.75);
             z-index: 2;
             @include vendorprefix(border-radius,5px);
-
+            //@include vendorprefix(transform, scale(1,1.09));
                 h2 {
-                color: rgba(255, 88, 57, 0.81);
+                color: rgb(255, 87, 61);
                   margin-left:0;
-                  //font-size:3.25em;
                   @include vendorprefix(transform,rotate(0deg));
                   @include vendorprefix(transition,all .5s linear 0s);
                 }
 
+
                 h2 ~ * {
-                  //display:block;
-                  //visibility: visible;
-                  opacity:1;
-                  @include vendorprefix(transition,all .25s linear 0s);
+                  display:block;
+                  //@include vendorprefix(transition,display 0s linear 12.5s);
+                  @include vendorprefix(transition,display 2s linear 2.5s);
                 }
+            * {
+              //@include vendorprefix(transform, scale(1,1));
+              @include vendorprefix(transition,all .5s linear 0.7s);
+            }
 
           }
 
       }
 
 }
+.closed {
+  @include vendorprefix(box, 1);
+  @include vendorprefix(box-flex, 1);
+  @include vendorprefix(flex, 1);
+  border-left:none;
+}
+/*
+section:first-child {
+  background:transparent;
+  @include vendorprefix(transition,all 0.75s linear 0s);
+  @include vendorprefix(boxflex, 12);
+  @include vendorprefix(box-flex, 12);
+  @include vendorprefix(flex, 12);
+  border:1px solid rgba(0,0,0,.75);
+  border-left:15px solid rgba(0,0,0,.75);
+  box-shadow:0 0 10px rgba(0,0,0, 0.85);
+  z-index: 2;
+  @include vendorprefix(border-radius,5px);
+}
+sectionfirst-child:hover: {
+  @include vendorprefix(boxflex, 1);
+  @include vendorprefix(box-flex, 1);
+  @include vendorprefix(flex, 1);
+}*/
+

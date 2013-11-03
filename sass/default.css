@@ -1,6 +1,6 @@
 /*
 Syntax error: File to import not found or unreadable: compass.
-              Load path: C:/Users/Billerey/Documents/bba_susy/sass
+              Load path: C:/Users/Billerey/Documents/GitHub/flex2013/sass
         on line 4 of _base.scss
         from line 1 of default.scss
 
@@ -53,10 +53,10 @@ C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/exec.rb
 C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/exec.rb:41:in `parse'
 C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/exec.rb:21:in `parse!'
 C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.9/bin/scss:9:in `<top (required)>'
-C:/Ruby193/bin/scss:23:in `load'
-C:/Ruby193/bin/scss:23:in `<main>'
+C:/RailsInstaller/Ruby1.9.3/bin/scss:23:in `load'
+C:/RailsInstaller/Ruby1.9.3/bin/scss:23:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: C:/Users/Billerey/Documents/bba_susy/sass\A         on line 4 of _base.scss\A         from line 1 of default.scss\A \A 1: @import \"base\";\A 2: svg:not(:root), symbol, image, marker, pattern, foreignObject {\A 3:   overflow: visible;\A 4:   width: 100%;\A 5: }\A 6: * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }\A 7: html {\A 8:   background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;\A 9:   -webkit-background-size: cover;"; }
+  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: C:/Users/Billerey/Documents/GitHub/flex2013/sass\A         on line 4 of _base.scss\A         from line 1 of default.scss\A \A 1: @import \"base\";\A 2: svg:not(:root), symbol, image, marker, pattern, foreignObject {\A 3:   overflow: visible;\A 4:   width: 100%;\A 5: }\A 6: * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }\A 7: html {\A 8:   background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;\A 9:   -webkit-background-size: cover;"; }

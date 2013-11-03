@@ -11,24 +11,22 @@ function testwidth() {
 	}
 }*/
 $(document).ready(function () {
-//testwidth ();
-    //alert('ready');
+    'use strict';
+    var navSections = $('nav > section').length;
+    //alert(navSections);
 
-    /*Modernizr.load([
-        {
+    function setOpeningPanels() {
+        var openPanel = $('nav section:first-child');
+        $(openPanel).addClass('opened');
+        $(openPanel).siblings().addClass('closed');
+    }
+    function removeOpeningPanels() {
+        var panel = ('nav > section');
+        $(panel).removeClass();
+    }
+    //setOpeningPanels();
+     $('nav > section').mouseover(function(){
+        //removeOpeningPanels();
+    });
 
-            // The test: does the browser understand Media Queries?
-            test : Modernizr.mq('all'),
-            // If not, load the respond.js file
-            //nope : '/js/css3-mediaqueries.js'
-            nope : 'test.js'
-        }
-    ]);*/
-
-    /*function generateNavNo() {
-        use strict;
-        var  x = document.getElementById("footer");
-        x.innerHTML = Math.floor((Math.random() * 3  + 1);
-    };
-    generateNavNo ();*/
 });
