@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b73b181d-574c-4814-ac4c-3474340157b3" name="Default" comment="files changes">
-      <change type="DELETED" beforePath="C:\Users\Billerey\Documents\GitHub\flex2013\.sass-cache\b5895006c9e7361b6a6fe946c7223018dc8f6f95\_base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Billerey\Documents\GitHub\flex2013\.sass-cache\b5895006c9e7361b6a6fe946c7223018dc8f6f95\default.scssc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Billerey\Documents\GitHub\flex2013\.sass-cache\b5895006c9e7361b6a6fe946c7223018dc8f6f95\screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Billerey\Documents\GitHub\flex2013\.sass-cache\b5895006c9e7361b6a6fe946c7223018dc8f6f95\svg.scssc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bba.js" afterPath="$PROJECT_DIR$/js/bba.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/default.css" afterPath="$PROJECT_DIR$/sass/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/default.scss" afterPath="$PROJECT_DIR$/sass/default.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/svg.css" afterPath="$PROJECT_DIR$/css/svg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/svg.css" afterPath="$PROJECT_DIR$/sass/svg.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/svg.scss" afterPath="$PROJECT_DIR$/sass/svg.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bba_susy.iws" />
@@ -43,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="-0.0" vertical-offset="170" max-vertical-offset="1734">
+            <state line="14" column="20" selection-start="789" selection-end="789" vertical-scroll-proportion="0.51359516" vertical-offset="68" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
@@ -61,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bba.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bba.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/bba.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="409" selection-end="409" vertical-scroll-proportion="0.27642277" vertical-offset="0" max-vertical-offset="442">
+            <state line="17" column="13" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -130,10 +116,10 @@
         <option value="$PROJECT_DIR$/js/test.js" />
         <option value="$PROJECT_DIR$/flextest.html" />
         <option value="$PROJECT_DIR$/sass/svg.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/bba.js" />
         <option value="$PROJECT_DIR$/sass/default.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -336,7 +322,11 @@
       <created>1382153072769</created>
       <updated>1382153072769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="files changes">
+      <created>1383503303898</created>
+      <updated>1383503303898</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -363,13 +353,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5491803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36332768" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3060313" sideWeight="0.84444445" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25167537" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25167537" sideWeight="0.67232597" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.8415673" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -480,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/default.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="32" selection-start="3888" selection-end="3888" vertical-scroll-proportion="-2.5394738" vertical-offset="1864" max-vertical-offset="2822">
@@ -496,7 +479,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bba.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="409" selection-end="409" vertical-scroll-proportion="0.27642277" vertical-offset="0" max-vertical-offset="442">
+        <state line="17" column="13" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="789" selection-end="789" vertical-scroll-proportion="0.51359516" vertical-offset="68" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>
