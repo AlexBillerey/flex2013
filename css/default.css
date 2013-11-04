@@ -226,7 +226,11 @@ nav section h2 ~ * {
 }
 /* line 98, ../sass/default.scss */
 nav section:hover {
-  background: rgba(0, 0, 0, 0.75);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.89)));
+  background-image: -webkit-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
+  background-image: -moz-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
+  background-image: -o-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
+  background-image: linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
   -webkit-transition: all 0.75s linear 0s;
   -moz-transition: all 0.75s linear 0s;
   -ms-transition: all 0.75s linear 0s;
@@ -257,7 +261,7 @@ nav section:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 113, ../sass/default.scss */
+/* line 114, ../sass/default.scss */
 nav section:hover h2 {
   color: #ff573d;
   margin-left: 0;
@@ -272,7 +276,7 @@ nav section:hover h2 {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
-/* line 121, ../sass/default.scss */
+/* line 122, ../sass/default.scss */
 nav section:hover h2 ~ * {
   display: block;
   -webkit-transition: display 2s linear 2.5s;
@@ -281,7 +285,7 @@ nav section:hover h2 ~ * {
   -o-transition: display 2s linear 2.5s;
   transition: display 2s linear 2.5s;
 }
-/* line 126, ../sass/default.scss */
+/* line 127, ../sass/default.scss */
 nav section:hover * {
   -webkit-transition: all 0.5s linear 0.7s;
   -moz-transition: all 0.5s linear 0.7s;
@@ -290,7 +294,7 @@ nav section:hover * {
   transition: all 0.5s linear 0.7s;
 }
 
-/* line 136, ../sass/default.scss */
+/* line 137, ../sass/default.scss */
 .closed {
   -webkit-box: 1;
   -moz-box: 1;
@@ -310,8 +314,8 @@ nav section:hover * {
   border-left: none;
 }
 
-/*
-section:first-child {
+/*section:first-child,*/
+/*.opened {
   background:transparent;
   @include vendorprefix(transition,all 0.75s linear 0s);
   @include vendorprefix(boxflex, 12);
