@@ -61,7 +61,6 @@ nav {
   @include vendorprefix(align-items,stretch);
 
       section {
-        //overflow:hidden;
         @include background-image(linear-gradient(left top, transparent, rgba(0,0,0,.75)));
         position:relative;
         height:60vh;
@@ -80,15 +79,14 @@ nav {
               margin-left:1.5em;
               @include vendorprefix(transform,rotate(90deg));
               @include vendorprefix(transform-origin, left top);
-              @include vendorprefix(transition,transform .5s linear 10s);
-              //@include vendorprefix(text-shadow,0px 0px 1px white);
+              @include vendorprefix(transition,all .25s linear 0s);
             }
             h2 ~ * {
               display:none;
-              //@include vendorprefix(transition,display 2s linear 2.5s);
+              //@include vendorprefix(transition,all 2s linear 2.5s);
             }
           &:hover {
-            @include background-image(linear-gradient(left top, rgba(255, 255, 255, 0.40), rgba(0, 0, 0, 0.89)));
+            @include background-image(linear-gradient(left top, rgba(255, 255, 255, 0.90), rgba(0, 0, 0, 0.9)));
             //@include vendorprefix(transition,all 0.75s linear 0s);
             @include vendorprefix(boxflex, 75%);
             @include vendorprefix(box-flex, 75%);
@@ -102,16 +100,16 @@ nav {
                 color: rgb(255, 87, 61);
                   margin-left:0;
                   @include vendorprefix(transform,rotate(0deg));
-                  @include vendorprefix(transition,all .5s linear 0s);
+                  @include vendorprefix(transition,all .25s linear 0s);
                 }
 
 
                 h2 ~ * {
                   display:block;
-                  @include vendorprefix(transition,display 2s linear 2.5s);
+                  //@include vendorprefix(transition,display 12s linear 2.5s);
                 }
             * {
-              @include vendorprefix(transition,all .5s linear 0.7s);
+              //@include vendorprefix(transition,all .5s linear 0.7s);
             }
 
           }

@@ -7,6 +7,7 @@
     <list default="true" id="b73b181d-574c-4814-ac4c-3474340157b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/default.scss" afterPath="$PROJECT_DIR$/sass/default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bba_susy.iws" />
@@ -30,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-3.9230769" vertical-offset="374" max-vertical-offset="1734">
+            <state line="36" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.35687023" vertical-offset="425" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
@@ -48,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="42" selection-start="2881" selection-end="2881" vertical-scroll-proportion="3.1210938" vertical-offset="0" max-vertical-offset="2618">
+            <state line="111" column="16" selection-start="3427" selection-end="3427" vertical-scroll-proportion="-6.6666665" vertical-offset="1547" max-vertical-offset="2584">
               <folding />
             </state>
           </provider>
@@ -60,8 +61,13 @@
       <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="5" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="5576">
-              <folding />
+            <state line="108" column="5" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="5355">
+              <folding>
+                <marker date="1383617208978" expanded="true" signature="5757:6385" placeholder="{...}" />
+                <marker date="1383617208978" expanded="true" signature="6010:6058" placeholder="{...}" />
+                <marker date="1383617208978" expanded="true" signature="7598:7728" placeholder="{...}" />
+                <marker date="1383617208978" expanded="true" signature="7989:8127" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +116,8 @@
         <option value="$PROJECT_DIR$/sass/svg.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/bba.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/default.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -342,7 +348,11 @@
       <created>1383614429233</created>
       <updated>1383614429233</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tweaking">
+      <created>1383616174107</created>
+      <updated>1383616174107</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -406,7 +416,8 @@
     <MESSAGE value="typos" />
     <MESSAGE value="more css" />
     <MESSAGE value="changes to flex property on section hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to flex property on section hover" />
+    <MESSAGE value="tweaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,23 +494,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-3.9230769" vertical-offset="374" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="5" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="5576">
-          <folding />
+        <state line="108" column="5" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="5355">
+          <folding>
+            <marker date="1383617208978" expanded="true" signature="5757:6385" placeholder="{...}" />
+            <marker date="1383617208978" expanded="true" signature="6010:6058" placeholder="{...}" />
+            <marker date="1383617208978" expanded="true" signature="7598:7728" placeholder="{...}" />
+            <marker date="1383617208978" expanded="true" signature="7989:8127" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="42" selection-start="2881" selection-end="2881" vertical-scroll-proportion="3.1210938" vertical-offset="0" max-vertical-offset="2618">
+        <state line="111" column="16" selection-start="3427" selection-end="3427" vertical-scroll-proportion="-6.6666665" vertical-offset="1547" max-vertical-offset="2584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.35687023" vertical-offset="425" max-vertical-offset="1717">
           <folding />
         </state>
       </provider>

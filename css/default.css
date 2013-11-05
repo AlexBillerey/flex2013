@@ -190,7 +190,7 @@ nav section {
   flex: 1;
   border: none;
 }
-/* line 75, ../sass/default.scss */
+/* line 74, ../sass/default.scss */
 nav section h2 {
   font-weight: 600;
   font-size: 2.5em;
@@ -207,23 +207,23 @@ nav section h2 {
   -ms-transform-origin: left top;
   -o-transform-origin: left top;
   transform-origin: left top;
-  -webkit-transition: transform 0.5s linear 10s;
-  -moz-transition: transform 0.5s linear 10s;
-  -ms-transition: transform 0.5s linear 10s;
-  -o-transition: transform 0.5s linear 10s;
-  transition: transform 0.5s linear 10s;
+  -webkit-transition: all 0.25s linear 0s;
+  -moz-transition: all 0.25s linear 0s;
+  -ms-transition: all 0.25s linear 0s;
+  -o-transition: all 0.25s linear 0s;
+  transition: all 0.25s linear 0s;
 }
-/* line 86, ../sass/default.scss */
+/* line 84, ../sass/default.scss */
 nav section h2 ~ * {
   display: none;
 }
-/* line 90, ../sass/default.scss */
+/* line 88, ../sass/default.scss */
 nav section:hover {
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.89)));
-  background-image: -webkit-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
-  background-image: -moz-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
-  background-image: -o-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
-  background-image: linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(0, 0, 0, 0.9)));
+  background-image: -webkit-linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
+  background-image: -moz-linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
+  background-image: -o-linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
+  background-image: linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
   -webkit-boxflex: 75%;
   -moz-boxflex: 75%;
   -ms-boxflex: 75%;
@@ -249,7 +249,7 @@ nav section:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 101, ../sass/default.scss */
+/* line 99, ../sass/default.scss */
 nav section:hover h2 {
   color: #ff573d;
   margin-left: 0;
@@ -258,31 +258,18 @@ nav section:hover h2 {
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: all 0.5s linear 0s;
-  -moz-transition: all 0.5s linear 0s;
-  -ms-transition: all 0.5s linear 0s;
-  -o-transition: all 0.5s linear 0s;
-  transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.25s linear 0s;
+  -moz-transition: all 0.25s linear 0s;
+  -ms-transition: all 0.25s linear 0s;
+  -o-transition: all 0.25s linear 0s;
+  transition: all 0.25s linear 0s;
 }
-/* line 109, ../sass/default.scss */
+/* line 107, ../sass/default.scss */
 nav section:hover h2 ~ * {
   display: block;
-  -webkit-transition: display 2s linear 2.5s;
-  -moz-transition: display 2s linear 2.5s;
-  -ms-transition: display 2s linear 2.5s;
-  -o-transition: display 2s linear 2.5s;
-  transition: display 2s linear 2.5s;
-}
-/* line 113, ../sass/default.scss */
-nav section:hover * {
-  -webkit-transition: all 0.5s linear 0.7s;
-  -moz-transition: all 0.5s linear 0.7s;
-  -ms-transition: all 0.5s linear 0.7s;
-  -o-transition: all 0.5s linear 0.7s;
-  transition: all 0.5s linear 0.7s;
 }
 
-/* line 122, ../sass/default.scss */
+/* line 120, ../sass/default.scss */
 .closed {
   -webkit-box: 1;
   -moz-box: 1;
