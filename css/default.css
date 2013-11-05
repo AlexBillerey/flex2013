@@ -190,12 +190,6 @@ nav section {
   -o-flex: 1;
   flex: 1;
   border: 1px solid rgba(255, 255, 255, 0);
-  /*
-  * {
-    @include vendorprefix(transform, scale(0,0));
-    @include vendorprefix(transition,all .5s linear 10.75s);
-  }
-  */
 }
 /* line 77, ../sass/default.scss */
 nav section h2 {
@@ -224,7 +218,7 @@ nav section h2 ~ * {
   -o-transition: display 2s linear 2.5s;
   transition: display 2s linear 2.5s;
 }
-/* line 98, ../sass/default.scss */
+/* line 92, ../sass/default.scss */
 nav section:hover {
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.89)));
   background-image: -webkit-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
@@ -236,21 +230,21 @@ nav section:hover {
   -ms-transition: all 0.75s linear 0s;
   -o-transition: all 0.75s linear 0s;
   transition: all 0.75s linear 0s;
-  -webkit-boxflex: 12;
-  -moz-boxflex: 12;
-  -ms-boxflex: 12;
-  -o-boxflex: 12;
-  boxflex: 12;
-  -webkit-box-flex: 12;
-  -moz-box-flex: 12;
-  -ms-box-flex: 12;
-  -o-box-flex: 12;
-  box-flex: 12;
-  -webkit-flex: 12;
-  -moz-flex: 12;
-  -ms-flex: 12;
-  -o-flex: 12;
-  flex: 12;
+  -webkit-boxflex: 80%;
+  -moz-boxflex: 80%;
+  -ms-boxflex: 80%;
+  -o-boxflex: 80%;
+  boxflex: 80%;
+  -webkit-box-flex: 80%;
+  -moz-box-flex: 80%;
+  -ms-box-flex: 80%;
+  -o-box-flex: 80%;
+  box-flex: 80%;
+  -webkit-flex: 80%;
+  -moz-flex: 80%;
+  -ms-flex: 80%;
+  -o-flex: 80%;
+  flex: 80%;
   border: 1px solid rgba(0, 0, 0, 0.7);
   border-left-width: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
@@ -261,7 +255,7 @@ nav section:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 114, ../sass/default.scss */
+/* line 103, ../sass/default.scss */
 nav section:hover h2 {
   color: #ff573d;
   margin-left: 0;
@@ -276,7 +270,7 @@ nav section:hover h2 {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
-/* line 122, ../sass/default.scss */
+/* line 111, ../sass/default.scss */
 nav section:hover h2 ~ * {
   display: block;
   -webkit-transition: display 2s linear 2.5s;
@@ -285,7 +279,7 @@ nav section:hover h2 ~ * {
   -o-transition: display 2s linear 2.5s;
   transition: display 2s linear 2.5s;
 }
-/* line 127, ../sass/default.scss */
+/* line 115, ../sass/default.scss */
 nav section:hover * {
   -webkit-transition: all 0.5s linear 0.7s;
   -moz-transition: all 0.5s linear 0.7s;
@@ -294,7 +288,7 @@ nav section:hover * {
   transition: all 0.5s linear 0.7s;
 }
 
-/* line 137, ../sass/default.scss */
+/* line 124, ../sass/default.scss */
 .closed {
   -webkit-box: 1;
   -moz-box: 1;

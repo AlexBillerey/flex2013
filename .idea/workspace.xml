@@ -31,19 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="21" selection-start="2901" selection-end="2981" vertical-scroll-proportion="-11.769231" vertical-offset="833" max-vertical-offset="1734">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.19465649" vertical-offset="374" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
@@ -52,7 +43,7 @@
       <file leaf-file-name="bba.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/bba.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="30" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -61,7 +52,7 @@
       <file leaf-file-name="default.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="0" selection-start="4527" selection-end="4529" vertical-scroll-proportion="-28.37255" vertical-offset="1001" max-vertical-offset="2856">
+            <state line="116" column="13" selection-start="3669" selection-end="3669" vertical-scroll-proportion="-7.7058825" vertical-offset="1579" max-vertical-offset="2652">
               <folding />
             </state>
           </provider>
@@ -71,15 +62,6 @@
         <entry file="file://$PROJECT_DIR$/sass/svg.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flextest.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flextest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="19" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.33519554" vertical-offset="653" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -119,9 +101,9 @@
         <option value="$PROJECT_DIR$/flextest.html" />
         <option value="$PROJECT_DIR$/sass/svg.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/bba.js" />
         <option value="$PROJECT_DIR$/sass/default.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -236,8 +218,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -245,14 +227,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -261,6 +235,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -344,7 +326,11 @@
       <created>1383504077929</created>
       <updated>1383504077929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="more css">
+      <created>1383526898385</created>
+      <updated>1383526898385</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -406,7 +392,8 @@
     <MESSAGE value="ignore" />
     <MESSAGE value="files changes" />
     <MESSAGE value="typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="typos" />
+    <MESSAGE value="more css" />
+    <option name="LAST_COMMIT_MESSAGE" value="more css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -436,16 +423,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/svg.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/screen.css">
@@ -473,20 +451,6 @@
         <state line="13" column="24" selection-start="395" selection-end="395" vertical-scroll-proportion="0.36346516" vertical-offset="28" max-vertical-offset="612" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="5" selection-start="3699" selection-end="3699" vertical-scroll-proportion="0.6795367" vertical-offset="1705" max-vertical-offset="5746">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="2901" selection-end="2981" vertical-scroll-proportion="-11.769231" vertical-offset="833" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bba.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
@@ -494,16 +458,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/default.scss">
+    <entry file="file://$PROJECT_DIR$/flextest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="4527" selection-end="4529" vertical-scroll-proportion="-28.37255" vertical-offset="1001" max-vertical-offset="2856">
+        <state line="49" column="19" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.33519554" vertical-offset="653" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/svg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flextest.html">
+    <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="19" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.33519554" vertical-offset="653" max-vertical-offset="1190">
+        <state line="121" column="5" selection-start="3754" selection-end="3754" vertical-scroll-proportion="-6.170909" vertical-offset="5451" max-vertical-offset="6001">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="13" selection-start="3669" selection-end="3669" vertical-scroll-proportion="-7.7058825" vertical-offset="1579" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.19465649" vertical-offset="374" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>
