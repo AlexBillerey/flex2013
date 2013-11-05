@@ -7,7 +7,6 @@
     <list default="true" id="b73b181d-574c-4814-ac4c-3474340157b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/default.scss" afterPath="$PROJECT_DIR$/sass/default.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bba_susy.iws" />
@@ -31,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.19465649" vertical-offset="374" max-vertical-offset="1734">
+            <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-3.9230769" vertical-offset="374" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
@@ -49,10 +48,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="13" selection-start="3669" selection-end="3669" vertical-scroll-proportion="-7.7058825" vertical-offset="1579" max-vertical-offset="2652">
+            <state line="94" column="42" selection-start="2881" selection-end="2881" vertical-scroll-proportion="3.1210938" vertical-offset="0" max-vertical-offset="2618">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="5" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="5576">
               <folding />
             </state>
           </provider>
@@ -102,8 +110,8 @@
         <option value="$PROJECT_DIR$/sass/svg.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/bba.js" />
-        <option value="$PROJECT_DIR$/sass/default.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/default.scss" />
       </list>
     </option>
   </component>
@@ -330,7 +338,11 @@
       <created>1383526898385</created>
       <updated>1383526898385</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changes to flex property on section hover">
+      <created>1383614429233</created>
+      <updated>1383614429233</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -357,6 +369,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5491803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -371,7 +384,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36332768" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -393,7 +405,8 @@
     <MESSAGE value="files changes" />
     <MESSAGE value="typos" />
     <MESSAGE value="more css" />
-    <option name="LAST_COMMIT_MESSAGE" value="more css" />
+    <MESSAGE value="changes to flex property on section hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to flex property on section hover" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,23 +483,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-3.9230769" vertical-offset="374" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="5" selection-start="3754" selection-end="3754" vertical-scroll-proportion="-6.170909" vertical-offset="5451" max-vertical-offset="6001">
+        <state line="121" column="5" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="5576">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="13" selection-start="3669" selection-end="3669" vertical-scroll-proportion="-7.7058825" vertical-offset="1579" max-vertical-offset="2652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.19465649" vertical-offset="374" max-vertical-offset="1734">
+        <state line="94" column="42" selection-start="2881" selection-end="2881" vertical-scroll-proportion="3.1210938" vertical-offset="0" max-vertical-offset="2618">
           <folding />
         </state>
       </provider>

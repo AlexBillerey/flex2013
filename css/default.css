@@ -160,7 +160,6 @@ nav {
 }
 /* line 63, ../sass/default.scss */
 nav section {
-  overflow: hidden;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.75)));
   background-image: -webkit-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
   background-image: -moz-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
@@ -189,9 +188,9 @@ nav section {
   -ms-flex: 1;
   -o-flex: 1;
   flex: 1;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: none;
 }
-/* line 77, ../sass/default.scss */
+/* line 75, ../sass/default.scss */
 nav section h2 {
   font-weight: 600;
   font-size: 2.5em;
@@ -208,43 +207,38 @@ nav section h2 {
   -ms-transform-origin: left top;
   -o-transform-origin: left top;
   transform-origin: left top;
+  -webkit-transition: transform 0.5s linear 10s;
+  -moz-transition: transform 0.5s linear 10s;
+  -ms-transition: transform 0.5s linear 10s;
+  -o-transition: transform 0.5s linear 10s;
+  transition: transform 0.5s linear 10s;
 }
-/* line 88, ../sass/default.scss */
+/* line 86, ../sass/default.scss */
 nav section h2 ~ * {
   display: none;
-  -webkit-transition: display 2s linear 2.5s;
-  -moz-transition: display 2s linear 2.5s;
-  -ms-transition: display 2s linear 2.5s;
-  -o-transition: display 2s linear 2.5s;
-  transition: display 2s linear 2.5s;
 }
-/* line 92, ../sass/default.scss */
+/* line 90, ../sass/default.scss */
 nav section:hover {
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.89)));
   background-image: -webkit-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
   background-image: -moz-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
   background-image: -o-linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
   background-image: linear-gradient(left top, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.89));
-  -webkit-transition: all 0.75s linear 0s;
-  -moz-transition: all 0.75s linear 0s;
-  -ms-transition: all 0.75s linear 0s;
-  -o-transition: all 0.75s linear 0s;
-  transition: all 0.75s linear 0s;
-  -webkit-boxflex: 80%;
-  -moz-boxflex: 80%;
-  -ms-boxflex: 80%;
-  -o-boxflex: 80%;
-  boxflex: 80%;
-  -webkit-box-flex: 80%;
-  -moz-box-flex: 80%;
-  -ms-box-flex: 80%;
-  -o-box-flex: 80%;
-  box-flex: 80%;
-  -webkit-flex: 80%;
-  -moz-flex: 80%;
-  -ms-flex: 80%;
-  -o-flex: 80%;
-  flex: 80%;
+  -webkit-boxflex: 75%;
+  -moz-boxflex: 75%;
+  -ms-boxflex: 75%;
+  -o-boxflex: 75%;
+  boxflex: 75%;
+  -webkit-box-flex: 75%;
+  -moz-box-flex: 75%;
+  -ms-box-flex: 75%;
+  -o-box-flex: 75%;
+  box-flex: 75%;
+  -webkit-flex: 75%;
+  -moz-flex: 75%;
+  -ms-flex: 75%;
+  -o-flex: 75%;
+  flex: 75%;
   border: 1px solid rgba(0, 0, 0, 0.7);
   border-left-width: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
@@ -255,7 +249,7 @@ nav section:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 103, ../sass/default.scss */
+/* line 101, ../sass/default.scss */
 nav section:hover h2 {
   color: #ff573d;
   margin-left: 0;
@@ -270,7 +264,7 @@ nav section:hover h2 {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
-/* line 111, ../sass/default.scss */
+/* line 109, ../sass/default.scss */
 nav section:hover h2 ~ * {
   display: block;
   -webkit-transition: display 2s linear 2.5s;
@@ -279,7 +273,7 @@ nav section:hover h2 ~ * {
   -o-transition: display 2s linear 2.5s;
   transition: display 2s linear 2.5s;
 }
-/* line 115, ../sass/default.scss */
+/* line 113, ../sass/default.scss */
 nav section:hover * {
   -webkit-transition: all 0.5s linear 0.7s;
   -moz-transition: all 0.5s linear 0.7s;
@@ -288,7 +282,7 @@ nav section:hover * {
   transition: all 0.5s linear 0.7s;
 }
 
-/* line 124, ../sass/default.scss */
+/* line 122, ../sass/default.scss */
 .closed {
   -webkit-box: 1;
   -moz-box: 1;
