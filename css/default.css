@@ -78,12 +78,12 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
 
 /* line 7, ../sass/default.scss */
 html {
-  background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;
+  /*background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow-y: hidden;
+  overflow-y: hidden;*/
 }
 
 /* line 18, ../sass/default.scss */
@@ -92,7 +92,7 @@ body {
   line-height: 1.4;
   font-size: 16px;
   font-size: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: white;
   color: #464646;
   height: 100vh;
 }
@@ -101,7 +101,7 @@ body {
 .page {
   width: 75vw;
   margin: auto;
-  background: rgba(0, 0, 0, 0.65);
+  background: white;
   padding: .25em;
   -webkit-border-radius: 0 0 0.25em 0.25em;
   -moz-border-radius: 0 0 0.25em 0.25em;
@@ -125,7 +125,7 @@ h1 {
 /* line 44, ../sass/default.scss */
 p, li {
   font-size: 0.9375em;
-  color: white;
+  color: #999;
 }
 
 /* line 48, ../sass/default.scss */
@@ -160,11 +160,7 @@ nav {
 }
 /* line 63, ../sass/default.scss */
 nav section {
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.75)));
-  background-image: -webkit-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
-  background-image: -moz-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
-  background-image: -o-linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
-  background-image: linear-gradient(left top, transparent, rgba(0, 0, 0, 0.75));
+  background: white;
   position: relative;
   height: 60vh;
   -webkit-transition: all 0.75s linear 0s;
@@ -190,7 +186,7 @@ nav section {
   flex: 1;
   border: none;
 }
-/* line 74, ../sass/default.scss */
+/* line 75, ../sass/default.scss */
 nav section h2 {
   font-weight: 600;
   font-size: 2.5em;
@@ -213,17 +209,12 @@ nav section h2 {
   -o-transition: all 0.25s linear 0s;
   transition: all 0.25s linear 0s;
 }
-/* line 84, ../sass/default.scss */
+/* line 85, ../sass/default.scss */
 nav section h2 ~ * {
   display: none;
 }
-/* line 88, ../sass/default.scss */
+/* line 89, ../sass/default.scss */
 nav section:hover {
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(0, 0, 0, 0.9)));
-  background-image: -webkit-linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
-  background-image: -moz-linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
-  background-image: -o-linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
-  background-image: linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9));
   -webkit-boxflex: 75%;
   -moz-boxflex: 75%;
   -ms-boxflex: 75%;
@@ -249,7 +240,7 @@ nav section:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 99, ../sass/default.scss */
+/* line 100, ../sass/default.scss */
 nav section:hover h2 {
   color: #ff573d;
   margin-left: 0;
@@ -264,46 +255,7 @@ nav section:hover h2 {
   -o-transition: all 0.25s linear 0s;
   transition: all 0.25s linear 0s;
 }
-/* line 107, ../sass/default.scss */
+/* line 108, ../sass/default.scss */
 nav section:hover h2 ~ * {
   display: block;
 }
-
-/* line 120, ../sass/default.scss */
-.closed {
-  -webkit-box: 1;
-  -moz-box: 1;
-  -ms-box: 1;
-  -o-box: 1;
-  box: 1;
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -ms-box-flex: 1;
-  -o-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1;
-  -moz-flex: 1;
-  -ms-flex: 1;
-  -o-flex: 1;
-  flex: 1;
-  border-left: none;
-}
-
-/*section:first-child,*/
-/*.opened {
-  background:transparent;
-  @include vendorprefix(transition,all 0.75s linear 0s);
-  @include vendorprefix(boxflex, 12);
-  @include vendorprefix(box-flex, 12);
-  @include vendorprefix(flex, 12);
-  border:1px solid rgba(0,0,0,.75);
-  border-left:15px solid rgba(0,0,0,.75);
-  box-shadow:0 0 10px rgba(0,0,0, 0.85);
-  z-index: 2;
-  @include vendorprefix(border-radius,5px);
-}
-sectionfirst-child:hover: {
-  @include vendorprefix(boxflex, 1);
-  @include vendorprefix(box-flex, 1);
-  @include vendorprefix(flex, 1);
-}*/
