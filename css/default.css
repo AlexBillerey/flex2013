@@ -78,30 +78,27 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
 
 /* line 7, ../sass/default.scss */
 html {
-  /*background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;
+  background: url(../img/brixton_1400_1050_sepia.jpg) no-repeat 0% 90% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow-y: hidden;*/
+  /*overflow-y: hidden;*/
 }
 
-/* line 18, ../sass/default.scss */
+/* line 19, ../sass/default.scss */
 body {
   font-family: Ubuntu, sans-serif;
   line-height: 1.4;
   font-size: 16px;
   font-size: 100%;
-  background: white;
-  color: #464646;
-  height: 100vh;
+  overflow-y: scroll;
 }
 
-/* line 28, ../sass/default.scss */
+/* line 26, ../sass/default.scss */
 .page {
   width: 75vw;
   margin: auto;
-  background: white;
   padding: .25em;
   -webkit-border-radius: 0 0 0.25em 0.25em;
   -moz-border-radius: 0 0 0.25em 0.25em;
@@ -111,26 +108,25 @@ body {
   border: solid 10px rgba(0, 0, 0, 0.75);
 }
 
-/* line 36, ../sass/default.scss */
+/* line 34, ../sass/default.scss */
 header {
   height: 3.73em;
   overflow: hidden;
 }
 
-/* line 40, ../sass/default.scss */
+/* line 38, ../sass/default.scss */
 h1 {
   background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 44, ../sass/default.scss */
+/* line 43, ../sass/default.scss */
 p, li {
   font-size: 0.9375em;
   color: #999;
 }
 
-/* line 48, ../sass/default.scss */
+/* line 47, ../sass/default.scss */
 nav {
-  background: transparent;
   margin: .75em 0.5em;
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -152,22 +148,22 @@ nav {
   -ms-justify-content: center;
   -o-justify-content: center;
   justify-content: center;
-  -webkit-align-items: stretch;
-  -moz-align-items: stretch;
-  -ms-align-items: stretch;
-  -o-align-items: stretch;
-  align-items: stretch;
+  -webkit-align-items: start;
+  -moz-align-items: start;
+  -ms-align-items: start;
+  -o-align-items: start;
+  align-items: start;
 }
-/* line 63, ../sass/default.scss */
+/* line 62, ../sass/default.scss */
 nav section {
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
   position: relative;
   height: 60vh;
-  -webkit-transition: all 0.75s linear 0s;
-  -moz-transition: all 0.75s linear 0s;
-  -ms-transition: all 0.75s linear 0s;
-  -o-transition: all 0.75s linear 0s;
-  transition: all 0.75s linear 0s;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
   padding: 10px;
   -webkit-box: 1;
   -moz-box: 1;
@@ -185,8 +181,9 @@ nav section {
   -o-flex: 1;
   flex: 1;
   border: none;
+  overflow: hidden;
 }
-/* line 75, ../sass/default.scss */
+/* line 74, ../sass/default.scss */
 nav section h2 {
   font-weight: 600;
   font-size: 2.5em;
@@ -209,30 +206,32 @@ nav section h2 {
   -o-transition: all 0.25s linear 0s;
   transition: all 0.25s linear 0s;
 }
-/* line 85, ../sass/default.scss */
+/* line 84, ../sass/default.scss */
 nav section h2 ~ * {
-  display: none;
+  /*height: 0;
+  width:0;*/
+  opacity: 0;
+  overflow: hidden;
 }
-/* line 89, ../sass/default.scss */
+/* line 93, ../sass/default.scss */
 nav section:hover {
-  -webkit-boxflex: 75%;
-  -moz-boxflex: 75%;
-  -ms-boxflex: 75%;
-  -o-boxflex: 75%;
-  boxflex: 75%;
-  -webkit-box-flex: 75%;
-  -moz-box-flex: 75%;
-  -ms-box-flex: 75%;
-  -o-box-flex: 75%;
-  box-flex: 75%;
-  -webkit-flex: 75%;
-  -moz-flex: 75%;
-  -ms-flex: 75%;
-  -o-flex: 75%;
-  flex: 75%;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  -webkit-flex: 10;
+  -moz-flex: 10;
+  -ms-flex: 10;
+  -o-flex: 10;
+  flex: 10;
+  background: rgba(255, 255, 255, 0.75);
+  /*@include vendorprefix(boxflex, 75%);
+  @include vendorprefix(box-flex, 75%);
+  @include vendorprefix(flex, 75%);*/
   border: 1px solid rgba(0, 0, 0, 0.7);
   border-left-width: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.95);
   z-index: 2;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -240,7 +239,7 @@ nav section:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 100, ../sass/default.scss */
+/* line 109, ../sass/default.scss */
 nav section:hover h2 {
   color: #ff573d;
   margin-left: 0;
@@ -255,7 +254,37 @@ nav section:hover h2 {
   -o-transition: all 0.25s linear 0s;
   transition: all 0.25s linear 0s;
 }
-/* line 108, ../sass/default.scss */
+/* line 117, ../sass/default.scss */
 nav section:hover h2 ~ * {
-  display: block;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear 0.5s;
+  -moz-transition: opacity 0.5s linear 0.5s;
+  -ms-transition: opacity 0.5s linear 0.5s;
+  -o-transition: opacity 0.5s linear 0.5s;
+  transition: opacity 0.5s linear 0.5s;
+}
+
+/* line 132, ../sass/default.scss */
+#baking, #coding, #contact {
+  background-image: url(../img/brixton_1400_1050_sepia.jpg);
+  background-position: 0% 90%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 143, ../sass/default.scss */
+#baking:hover, #coding:hover, #contact:hover {
+  background-image: url(../img/brixton_2560_1920_65.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: background 0s linear 0.7s;
+  -moz-transition: background 0s linear 0.7s;
+  -ms-transition: background 0s linear 0.7s;
+  -o-transition: background 0s linear 0.7s;
+  transition: background 0s linear 0.7s;
 }
