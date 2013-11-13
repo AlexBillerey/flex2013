@@ -11,7 +11,7 @@ Syntax error: File to import not found or unreadable: compass.
 5: }
 6: * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 7: html {
-8:   background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;
+8:   /*background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;
 9:   -webkit-background-size: cover;
 
 Backtrace:
@@ -59,4 +59,4 @@ C:/RailsInstaller/Ruby1.9.3/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: C:/Users/Billerey/Documents/GitHub/flex2013/sass\A         on line 4 of _base.scss\A         from line 1 of default.scss\A \A 1: @import \"base\";\A 2: svg:not(:root), symbol, image, marker, pattern, foreignObject {\A 3:   overflow: visible;\A 4:   width: 100%;\A 5: }\A 6: * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }\A 7: html {\A 8:   background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;\A 9:   -webkit-background-size: cover;"; }
+  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: C:/Users/Billerey/Documents/GitHub/flex2013/sass\A         on line 4 of _base.scss\A         from line 1 of default.scss\A \A 1: @import \"base\";\A 2: svg:not(:root), symbol, image, marker, pattern, foreignObject {\A 3:   overflow: visible;\A 4:   width: 100%;\A 5: }\A 6: * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }\A 7: html {\A 8:   /*background: url(../img/brixton35.jpg) no-repeat 100% 20% fixed;\A 9:   -webkit-background-size: cover;"; }
