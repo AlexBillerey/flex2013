@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b73b181d-574c-4814-ac4c-3474340157b3" name="Default" comment="">
+    <list default="true" id="b73b181d-574c-4814-ac4c-3474340157b3" name="Default" comment="tweaking">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/default.scss" afterPath="$PROJECT_DIR$/sass/default.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="21" selection-start="2901" selection-end="2981" vertical-scroll-proportion="0.56660414" vertical-offset="718" max-vertical-offset="1545">
+            <state line="42" column="24" selection-start="1682" selection-end="1688" vertical-scroll-proportion="-1.44713" vertical-offset="1193" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
@@ -41,7 +43,7 @@
       <file leaf-file-name="default.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="1" selection-start="4268" selection-end="4268" vertical-scroll-proportion="0.0" vertical-offset="1641" max-vertical-offset="2205">
+            <state line="134" column="25" selection-start="4096" selection-end="4096" vertical-scroll-proportion="-10.846154" vertical-offset="1996" max-vertical-offset="2533">
               <folding />
             </state>
           </provider>
@@ -50,7 +52,7 @@
       <file leaf-file-name="svg.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/svg.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="450">
+            <state line="21" column="18" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -91,14 +93,16 @@
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/js/bba.js" />
         <option value="$PROJECT_DIR$/sass/svg.scss" />
-        <option value="$PROJECT_DIR$/sass/default.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/default.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="741" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -145,6 +149,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,14 +177,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Default">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bba_susy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bba_susy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -232,6 +264,13 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -336,15 +375,7 @@
       <created>1384095303120</created>
       <updated>1384095303120</updated>
     </task>
-    <task id="LOCAL-00016" summary="first commit from ubuntu">
-      <created>1384308982785</created>
-      <updated>1384308982785</updated>
-    </task>
-    <task id="LOCAL-00017" summary="minor tweaking">
-      <created>1384309463622</created>
-      <updated>1384309463622</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -368,19 +399,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="741" extended-state="2" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32666665" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5491803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3060313" sideWeight="0.84444445" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25139666" sideWeight="0.67333335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25093076" sideWeight="0.67232597" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.8415673" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48896435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -410,9 +441,7 @@
     <MESSAGE value="more css" />
     <MESSAGE value="changes to flex property on section hover" />
     <MESSAGE value="tweaking" />
-    <MESSAGE value="first commit from ubuntu" />
-    <MESSAGE value="minor tweaking" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor tweaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,7 +486,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="5" selection-start="3484" selection-end="3484" vertical-scroll-proportion="-4.78" vertical-offset="4465" max-vertical-offset="5015" />
+        <state line="108" column="5" selection-start="3484" selection-end="3484" vertical-scroll-proportion="-4.78" vertical-offset="4465" max-vertical-offset="5015">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/brixton_1400_1050.jpg">
@@ -494,14 +525,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="1" selection-start="4268" selection-end="4268" vertical-scroll-proportion="0.0" vertical-offset="1641" max-vertical-offset="2205">
+        <state line="134" column="25" selection-start="4096" selection-end="4096" vertical-scroll-proportion="-10.846154" vertical-offset="1996" max-vertical-offset="2533">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="21" selection-start="2901" selection-end="2981" vertical-scroll-proportion="0.56660414" vertical-offset="718" max-vertical-offset="1545">
+        <state line="42" column="24" selection-start="1682" selection-end="1688" vertical-scroll-proportion="-1.44713" vertical-offset="1193" max-vertical-offset="1717">
           <folding />
         </state>
       </provider>
