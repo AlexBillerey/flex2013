@@ -1,9 +1,16 @@
 @import "base";
+
 svg:not(:root), symbol, image, marker, pattern, foreignObject {
   overflow: visible;
   width: 10%;
 }
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
   //background: url(../img/brixton_2560_1920_45.jpg) no-repeat 0% 90% fixed;
   background: url(../img/brixton_2560_1920_65.jpg) no-repeat 0% 90% fixed;
@@ -15,116 +22,118 @@ html {
   //@include vendorprefix(filter, grayscale(.9));
 }
 
-
 body {
-  font-family:Ubuntu, sans-serif;
-  line-height:1.4;
-  font-size:16px;
-  font-size:100%;
+  font-family: Ubuntu, sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+  font-size: 100%;
   overflow-y: scroll;
 }
+
 .page {
-  width:75vw;
-  margin:auto;
-  background: rgba(0,0,0,.65);
-  padding:.25em;
-  @include vendorprefix(border-radius,0 0 .25em .25em);
+  width: 75vw;
+  margin: auto;
+  background: rgba(0, 0, 0, .65);
+  padding: .25em;
+  @include vendorprefix(border-radius, 0 0 .25em .25em);
   //border:solid 10px rgba(0,0,0,.75);
 }
+
 header {
-  height:3.73em;
-  overflow:hidden;
+  height: 3.73em;
+  overflow: hidden;
 }
+
 h1 {
-  background: rgba(0,0,0,.75);
+  background: rgba(0, 0, 0, .75);
 
 }
 
-p,li {
-  font-size:.9375em  /* 15 / 16 = .9375 */ ;
-  color:#999;
+p, li {
+  font-size: .9375em /* 15 / 16 = .9375 */;
+  color: #999;
 }
+
 nav {
   //background: rgba(239, 231, 22, 0.66);
   //height: 16em;
 
-  margin:.75em 0.5em;
+  margin: .75em 0.5em;
 
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
   @include vendorprefix(flex-wrap, nowrap);
   @include vendorprefix(justify-content, center);
-  @include vendorprefix(align-items,start);
+  @include vendorprefix(align-items, start);
 
-      section {
-        //@include background-image(linear-gradient(left top, transparent, rgba(0,0,0,.75)));
-        //background: rgba(255, 255, 255, 0.50);
-        //background-color:transparent;
-        background: url(../img/brixton_2560_1920_65.jpg);
-        position:relative;
-        height:60vh;
-        padding:10px;
-        @include vendorprefix(box, 1);
-        @include vendorprefix(box-flex, 1);
-        @include vendorprefix(flex, 1);
-        border:1px solid transparent;
-        border-left:15px solid transparent;
-        border-left:none;
-        overflow:hidden;
-        @include vendorprefix(border-radius,5px);
-        @include vendorprefix(transition,all .25s ease 0s);
-            h2 {
-              font-weight:600;
-              font-size:2.5em;
-              color:rgba(255,255,255,0);
-              text-shadow: -1px 0px 1px black, 0px -1px 1px white ;
-              width:4em;
-              background: transparent;
-              margin-left:1.5em;
-              @include vendorprefix(transform,rotate(90deg));
-              @include vendorprefix(transform-origin, left top);
-              @include vendorprefix(transition,all .25s linear 0s);
-            }
-            h2 ~ * {
-              opacity:0;
-              overflow:hidden;
-            }
-          &:hover {
-            @include vendorprefix(box, 10);
-            @include vendorprefix(box-flex, 10);
-            @include vendorprefix(flex, 10);
-            //background: rgba(0,0,0, 0.75);
-            border:1px solid rgba(0,0,0,.75);
-            border-left-width:15px;
-            box-shadow:5px 2px 10px rgba(0,0,0, 0.95);
-            z-index: 2;
-            text-shadow: 1px 0px 1px white, 0px 1px 1px white;
-            color:#999;
-                h2 {
-                color: rgb(0, 0, 0);
-                  margin-left:0;
-                  @include vendorprefix(transform,rotate(0deg));
-                  @include vendorprefix(transition,all .25s linear 0s);
-                }
+  section {
+    //@include background-image(linear-gradient(left top, transparent, rgba(0,0,0,.75)));
+    //background: rgba(255, 255, 255, 0.50);
+    //background-color:transparent;
+    background: url(../img/brixton_2560_1920_65.jpg);
+    position: relative;
+    height: 60vh;
+    padding: 10px;
+    @include vendorprefix(box, 1 0 0);
+    @include vendorprefix(box-flex, 1 0 0);
+    @include vendorprefix(flex, 1 0 0);
+    border: 1px solid transparent;
+    border-left: 15px solid transparent;
+    overflow: hidden;
+    @include vendorprefix(border-radius, 5px);
+    @include vendorprefix(transition, all .25s ease 0s);
+    h2 {
+      font-weight: 600;
+      font-size: 2.5em;
+      color: rgba(255, 255, 255, 0);
+      text-shadow: -1px 0px 1px black, 0px -1px 1px white;
+      width: 4em;
+      background: transparent;
+      margin-left: 1.5em;
+      @include vendorprefix(transform, rotate(90deg));
+      @include vendorprefix(transform-origin, left top);
+      @include vendorprefix(transition, all .25s linear 0s);
+    }
+    h2 ~ * {
+      opacity: 0;
+      overflow: hidden;
+    }
+    &:hover {
+      @include vendorprefix(box-grow, 10);
+      @include vendorprefix(box-flex-grow, 10);
+      @include vendorprefix(flex-grow, 10);
+      //background: rgba(0,0,0, 0.75);
+      border: 1px solid rgba(0, 0, 0, .75);
+      border-left-width: 15px;
+      box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.95);
+      z-index: 2;
+      text-shadow: 1px 0px 1px white, 0px 1px 1px white;
+      color: #999;
+      h2 {
+        color: rgb(0, 0, 0);
+        margin-left: 0;
+        @include vendorprefix(transform, rotate(0deg));
+        @include vendorprefix(transition, all .25s linear 0s);
+      }
 
-
-                h2 ~ * {
-                  opacity:1;
-                  @include vendorprefix(transition,opacity .5s linear .5s);
-                }
-            * {
-
-            }
-
-          }
+      h2 ~ * {
+        opacity: 1;
+        @include vendorprefix(transition, opacity .5s linear .5s);
+      }
+      * {
 
       }
 
+    }
+
+  }
+
 }
-#baking,#coding,#contact {
+
+#baking, #coding, #contact {
   //background-image: url(../img/brixton_1400_1050_gs.jpg);
   background-image: url(../img/brixton_2560_1920_65.jpg);
   //background-image:none;
