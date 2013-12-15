@@ -15,7 +15,7 @@ $(document).ready(function () {
     var navSections = $('nav > section').length;
     //alert(navSections);
 
-    function setOpeningPanels() {
+    function setOpeningPanels () {
         var openPanel = $('nav section:first-child');
         $(openPanel).addClass('opened');
         $(openPanel).siblings().addClass('closed');
@@ -25,7 +25,7 @@ $(document).ready(function () {
         $(panel).removeClass();
     }
     //setOpeningPanels();
-     $('nav > section').mouseover(function(){
+     $('nav > section').mouseover(function () {
         //removeOpeningPanels();
     });
 

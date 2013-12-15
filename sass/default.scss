@@ -13,7 +13,7 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
 
 html {
   //background: url(../img/brixton_2560_1920_45.jpg) no-repeat 0% 90% fixed;
-  background: url(../img/brixton_2560_1920_65.jpg) no-repeat 0% 90% fixed;
+  background: url(../img/brixton_2560_1920_45.jpg) no-repeat 0% 90% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,8 +40,15 @@ body {
 }
 
 header {
-  height: 3.73em;
+  //height: 3.73em;
   overflow: hidden;
+  border:solid 1px white;
+  color:white;
+}
+header + p {
+  //color: rgba(93, 93, 93, 0);
+  font-size:1.75em;
+  //text-shadow: 2px 2px 2px #fff;
 }
 
 h1 {
@@ -73,7 +80,7 @@ nav {
     //@include background-image(linear-gradient(left top, transparent, rgba(0,0,0,.75)));
     //background: rgba(255, 255, 255, 0.50);
     //background-color:transparent;
-    background: url(../img/brixton_2560_1920_65.jpg);
+    background: url(../img/brixton35.jpg);
     position: relative;
     height: 60vh;
     padding: 10px;
@@ -84,7 +91,7 @@ nav {
     border-left: 15px solid transparent;
     overflow: hidden;
     @include vendorprefix(border-radius, 5px);
-    @include vendorprefix(transition, all .25s ease 0s);
+    @include vendorprefix(transition, all .25s cubic-bezier(.1,.25,.3,2.5) 0s);
     h2 {
       font-weight: 600;
       font-size: 2.5em;
@@ -110,7 +117,7 @@ nav {
       border-left-width: 15px;
       box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.95);
       z-index: 2;
-      text-shadow: 1px 0px 1px white, 0px 1px 1px white;
+      //text-shadow: 1px 0px 1px white, 0px 1px 1px white;
       color: #999;
       h2 {
         color: rgb(0, 0, 0);
@@ -146,7 +153,7 @@ nav {
   background-size: cover;
   &:hover {
     //background-image: url(../img/brixton_2560_1920_65.jpg);
-    background-image: url(../img/brixton_1400_1050_sepia.jpg);
+    background-image: url(../img/brixton_1400_1050_gs.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
