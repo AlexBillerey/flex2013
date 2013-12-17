@@ -33,7 +33,7 @@ body {
 .page {
   width: 75vw;
   margin: auto;
-  background: rgba(0, 0, 0, .65);
+  //background: rgba(0, 0, 0, .65);
   padding: .25em;
   @include vendorprefix(border-radius, 0 0 .25em .25em);
   //border:solid 10px rgba(0,0,0,.75);
@@ -154,9 +154,9 @@ nav {
   &:hover {
     //background-image: url(../img/brixton_2560_1920_65.jpg);
     background-image: url(../img/brixton_1400_1050_gs.jpg);
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
   }
 }

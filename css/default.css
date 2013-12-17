@@ -85,7 +85,6 @@ body {
 .page {
   width: 75vw;
   margin: auto;
-  background: rgba(0, 0, 0, 0.65);
   padding: .25em;
   -webkit-border-radius: 0 0 0.25em 0.25em;
   -moz-border-radius: 0 0 0.25em 0.25em;
@@ -260,8 +259,8 @@ nav section:hover h2 ~ * {
 }
 #baking:hover, #coding:hover, #contact:hover {
   background-image: url(../img/brixton_1400_1050_gs.jpg);
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
