@@ -91,7 +91,7 @@ nav {
     border-left: 15px solid transparent;
     overflow: hidden;
     @include vendorprefix(border-radius, 5px);
-    @include vendorprefix(transition, all .25s cubic-bezier(.1,.25,.3,2.5) 0s);
+    @include vendorprefix(transition, all .25s cubic-bezier(.1,.25,.3,.5) 0s);
     h2 {
       font-weight: 600;
       font-size: 2.5em;
